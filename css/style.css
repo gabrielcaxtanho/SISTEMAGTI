@@ -1,0 +1,69 @@
+*{
+    font-family:  monospace;
+}
+
+
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/uma-pessoa-digitando-no-teclado-do-computador-a-noite-gerado-por-ia_188544-31047.jpg);
+    background-size: cover;
+    
+}
+
+.menu{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+
+.icones{
+    width: 30%;
+    padding: 2%;
+    justify-content: center;
+    background-color: #000000c8;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.icones a{
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 0.5s;
+
+}
+
+.icones a:hover{
+    font-size: 25px;
+    color: rgb(118, 59, 160);
+    transition: 0.2s;
+}
+
+.centralpai{
+    display: flex;
+    justify-content: center;
+ 
+ }
+ 
+ .centralfilho{
+     background-color: #00000059;
+     border-radius: 10px;
+     padding: 10%;
+     width: 500px;
+     color: white;
+ }
+ 
+ 
+ .lista{
+     background-color: #00000006;
+     display: flex;
+     justify-content: center;
+ }
+
+ 
